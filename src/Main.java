@@ -12,10 +12,10 @@ public class Main {
             double num2 = ab.nextDouble();
 
             System.out.println("what to perform");
-            System.out.println("1. Addition");
-            System.out.println("2. Subtraction");
-            System.out.println("3. Multiplication");
-            System.out.println("4. Division");
+            System.out.println("1= Addition");
+            System.out.println("2= Subtraction");
+            System.out.println("3= Multiplication");
+            System.out.println("4= Division");
 
             int myChoice = ab.nextInt();
             double result = 0;
