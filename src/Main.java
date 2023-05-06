@@ -3,16 +3,11 @@
 
 import java.util.Scanner;
 public class Main {
-
-
-
-
         public static void main(String[] args) {
             Scanner ab = new Scanner(System.in);
 
             System.out.print("Enter the first number ");
             double num1 = ab.nextDouble();
-
             System.out.print("Enter the second number ");
             double num2 = ab.nextDouble();
 
@@ -23,7 +18,6 @@ public class Main {
             System.out.println("4. Division");
 
             int myChoice = ab.nextInt();
-
             double result = 0;
             String operation = "";
 
@@ -53,9 +47,6 @@ public class Main {
                     System.out.println("Invalid choice.");
                     System.exit(0);
             }
-
             System.out.println(operation + " result: " + result);
-
             ab.close();
-        }
-    }
+        }}
