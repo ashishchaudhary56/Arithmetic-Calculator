@@ -10,24 +10,24 @@ public class Main {
         public static void main(String[] args) {
             Scanner ab = new Scanner(System.in);
 
-            System.out.print("Enter the first number: ");
+            System.out.print("Enter the first number ");
             double num1 = ab.nextDouble();
 
-            System.out.print("Enter the second number: ");
+            System.out.print("Enter the second number ");
             double num2 = ab.nextDouble();
 
-            System.out.println("Select an operation:");
+            System.out.println("what to perform");
             System.out.println("1. Addition");
             System.out.println("2. Subtraction");
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
 
-            int choice = ab.nextInt();
+            int myChoice = ab.nextInt();
 
             double result = 0;
             String operation = "";
 
-            switch (choice) {
+            switch (myChoice) {
                 case 1:
                     result = num1 + num2;
                     operation = "Addition";
@@ -45,7 +45,7 @@ public class Main {
                         result = num1 / num2;
                         operation = "Division";
                     } else {
-                        System.out.println("Error: Cannot divide by zero.");
+                        System.out.println("Error Cannot divide by zero.");
                         System.exit(0);
                     }
                     break;
