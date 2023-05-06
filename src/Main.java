@@ -8,13 +8,13 @@ public class Main {
 
 
         public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+            Scanner ab = new Scanner(System.in);
 
             System.out.print("Enter the first number: ");
-            double num1 = scanner.nextDouble();
+            double num1 = ab.nextDouble();
 
             System.out.print("Enter the second number: ");
-            double num2 = scanner.nextDouble();
+            double num2 = ab.nextDouble();
 
             System.out.println("Select an operation:");
             System.out.println("1. Addition");
@@ -22,7 +22,7 @@ public class Main {
             System.out.println("3. Multiplication");
             System.out.println("4. Division");
 
-            int choice = scanner.nextInt();
+            int choice = ab.nextInt();
 
             double result = 0;
             String operation = "";
@@ -56,6 +56,6 @@ public class Main {
 
             System.out.println(operation + " result: " + result);
 
-            scanner.close();
+            ab.close();
         }
     }
